@@ -9,14 +9,14 @@ function Header() {
             </Link>
         </div>
         <div className="flex gap-12 font-medium text-red-500 text-md items-center">
-            <Link to="/">
+            <Link to="/" className='hover:underline'>
             <a href="#">Home</a>
             </Link>
             <Link to="/about">
             <a href="#">About</a>
             </Link>
-            <Link to="/Sign" className='border-2 px-2 py-1 bg-white rounded-md'>
-            <a href="#">Sign In</a>
+            <Link to="/SignUp" className='border-2 px-2 py-1 bg-white rounded-md'>
+            <a href="#">SignUp</a>
             </Link>
         </div>
     </div>

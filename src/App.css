@@ -1,0 +1,7 @@
+.text{
+    background-image: url(./assets/magicpattern-starry-night-1702548929846.png);
+    color: transparent;
+    background-position: center;
+    background-size: 200px;
+    background-clip: text;
+}
